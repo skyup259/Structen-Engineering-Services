@@ -1,20 +1,5 @@
-.footer{
-	padding: 10px 10px;
-	background: steelblue;
-	text-align: center;
-
-}
-.email{
-	text-align: center;
-	padding-top: 10px;
-}
-
-.square{
-	padding-left: 200px;
-	float: left;
-	display: inline;
-}
-.second{
-	padding-right: 200px;
-	float: right;
+.footer {
+  background-color:#343a40;
+  color:rgba(255,255,255,.5);
+  text-align: center;
 }
