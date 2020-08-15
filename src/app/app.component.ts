@@ -10,15 +10,15 @@ export class AppComponent {
   imgNum = 1;
   imagePath = '../assets/img' + this.imgNum + '.jpg';
 
-  slideImg(status): void {
-    if(status === 'nxt') {
-      this.imgNum += 1;
-    } else {
-      this.imgNum -= 1;
-    }
-    this.imgNum = Math.abs(this.imgNum) % 2;
-    this.imagePath = '../assets/img' + this.imgNum + '.jpg';
-  }
+  // slideImg(status): void {
+  //   if(status === 'nxt') {
+  //     this.imgNum += 1;
+  //   } else {
+  //     this.imgNum -= 1;
+  //   }
+  //   this.imgNum = Math.abs(this.imgNum) % 2;
+  //   this.imagePath = '../assets/img' + this.imgNum + '.jpg';
+  // }
 }
 
 

@@ -1,5 +1,5 @@
 <div class="main">
-    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark header">
       <div class="container-lg">
         <div class="col-2">
           <a class="navbar-brand" href="#">Home</a>
@@ -26,16 +26,12 @@
                 <a class="nav-link" pageScroll href="#contactUs">Contact Us</a>
               </li>
             </ul>
-            <!-- <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form> -->
           </div>
       </div>
 
     </nav>
 
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100"  src="{{imagePath}}" alt="First slide">
@@ -50,7 +46,39 @@
         <span class="sr-only">Next</span>
       </button>
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    </div>
+    </div> -->
+    <div class="container">
+    <ngb-carousel>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="../assets/const6.jfif" alt="Random first slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="../assets/const3.jfif" alt="Random second slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img src="../assets/const4.jfif" alt="Random third slide">
+        </div>
+        <div class="carousel-caption">
+          <h3>Third slide label</h3>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+
 
     <div class="container">
       <span id="aboutUs">
