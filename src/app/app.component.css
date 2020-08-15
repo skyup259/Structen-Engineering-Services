@@ -1,5 +1,6 @@
 .main h1 {
   text-align: center;
+  font-family: Calibri;
 }
 .center {
   display: block;
@@ -130,4 +131,8 @@
 
 .main {
   background-color: #cad1d6;
+}
+
+.footer {
+  background-color: steelblue;
 }
